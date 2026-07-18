@@ -1,0 +1,3 @@
+/embed_workspace/projects/thread_cpp/build/CMakeFiles/thread.dir
+/embed_workspace/projects/thread_cpp/build/CMakeFiles/edit_cache.dir
+/embed_workspace/projects/thread_cpp/build/CMakeFiles/rebuild_cache.dir

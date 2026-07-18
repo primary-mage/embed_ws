@@ -1,0 +1,1 @@
+/usr/lib/ccache/c++ CMakeFiles/thread_cpp.dir/src/main.cpp.o -o thread_cpp 
