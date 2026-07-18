@@ -1,0 +1,1 @@
+/usr/lib/ccache/c++ CMakeFiles/class.dir/src/class.cpp.o -o class 

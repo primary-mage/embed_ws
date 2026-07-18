@@ -1,0 +1,5 @@
+/embed_workspace/projects/practice_cpp/build/CMakeFiles/hello_cpp.dir
+/embed_workspace/projects/practice_cpp/build/CMakeFiles/imu.dir
+/embed_workspace/projects/practice_cpp/build/CMakeFiles/class.dir
+/embed_workspace/projects/practice_cpp/build/CMakeFiles/edit_cache.dir
+/embed_workspace/projects/practice_cpp/build/CMakeFiles/rebuild_cache.dir

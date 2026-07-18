@@ -1,0 +1,4 @@
+/embed_workspace/projects/basic_cpp/build/CMakeFiles/basic_utils.dir
+/embed_workspace/projects/basic_cpp/build/CMakeFiles/main.dir
+/embed_workspace/projects/basic_cpp/build/CMakeFiles/edit_cache.dir
+/embed_workspace/projects/basic_cpp/build/CMakeFiles/rebuild_cache.dir
