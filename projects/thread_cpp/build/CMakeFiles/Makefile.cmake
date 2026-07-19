@@ -45,4 +45,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/thread.dir/DependInfo.cmake"
+  "CMakeFiles/timer.dir/DependInfo.cmake"
+  "CMakeFiles/atomatic.dir/DependInfo.cmake"
   )

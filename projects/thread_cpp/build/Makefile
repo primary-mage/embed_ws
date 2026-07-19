@@ -129,6 +129,56 @@ thread/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/thread.dir/build.make CMakeFiles/thread.dir/build
 .PHONY : thread/fast
 
+#=============================================================================
+# Target rules for targets named timer
+
+# Build rule for target.
+timer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 timer
+.PHONY : timer
+
+# fast build rule for target.
+timer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/timer.dir/build.make CMakeFiles/timer.dir/build
+.PHONY : timer/fast
+
+#=============================================================================
+# Target rules for targets named atomatic
+
+# Build rule for target.
+atomatic: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 atomatic
+.PHONY : atomatic
+
+# fast build rule for target.
+atomatic/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/atomatic.dir/build.make CMakeFiles/atomatic.dir/build
+.PHONY : atomatic/fast
+
+src/atomic.o: src/atomic.cpp.o
+.PHONY : src/atomic.o
+
+# target to build an object file
+src/atomic.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/atomatic.dir/build.make CMakeFiles/atomatic.dir/src/atomic.cpp.o
+.PHONY : src/atomic.cpp.o
+
+src/atomic.i: src/atomic.cpp.i
+.PHONY : src/atomic.i
+
+# target to preprocess a source file
+src/atomic.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/atomatic.dir/build.make CMakeFiles/atomatic.dir/src/atomic.cpp.i
+.PHONY : src/atomic.cpp.i
+
+src/atomic.s: src/atomic.cpp.s
+.PHONY : src/atomic.s
+
+# target to generate assembly for a file
+src/atomic.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/atomatic.dir/build.make CMakeFiles/atomatic.dir/src/atomic.cpp.s
+.PHONY : src/atomic.cpp.s
+
 src/thread.o: src/thread.cpp.o
 .PHONY : src/thread.o
 
@@ -153,6 +203,30 @@ src/thread.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/thread.dir/build.make CMakeFiles/thread.dir/src/thread.cpp.s
 .PHONY : src/thread.cpp.s
 
+src/timer.o: src/timer.cpp.o
+.PHONY : src/timer.o
+
+# target to build an object file
+src/timer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/timer.dir/build.make CMakeFiles/timer.dir/src/timer.cpp.o
+.PHONY : src/timer.cpp.o
+
+src/timer.i: src/timer.cpp.i
+.PHONY : src/timer.i
+
+# target to preprocess a source file
+src/timer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/timer.dir/build.make CMakeFiles/timer.dir/src/timer.cpp.i
+.PHONY : src/timer.cpp.i
+
+src/timer.s: src/timer.cpp.s
+.PHONY : src/timer.s
+
+# target to generate assembly for a file
+src/timer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/timer.dir/build.make CMakeFiles/timer.dir/src/timer.cpp.s
+.PHONY : src/timer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -161,10 +235,18 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... atomatic"
 	@echo "... thread"
+	@echo "... timer"
+	@echo "... src/atomic.o"
+	@echo "... src/atomic.i"
+	@echo "... src/atomic.s"
 	@echo "... src/thread.o"
 	@echo "... src/thread.i"
 	@echo "... src/thread.s"
+	@echo "... src/timer.o"
+	@echo "... src/timer.i"
+	@echo "... src/timer.s"
 .PHONY : help
 
 
